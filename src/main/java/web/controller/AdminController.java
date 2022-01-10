@@ -30,4 +30,6 @@ public class AdminController {
         model.addAttribute("roles", roleService.getAllRoles());
         return "index";
     }
+
+
 }
